@@ -1,21 +1,59 @@
 # Dependencies
 node_modules/
+/.pnp
+.pnp.js
 
 # Environment variables (keep this secret!)
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Lock files (optional - some teams commit these)
 package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
 # OS files
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
 
 # Logs
 logs/
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
 # React build output
 build/
 dist/
+.next/
+
+# IDE and editor files
+*.swp
+*.swo
+*~
+.project
+.classpath
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
