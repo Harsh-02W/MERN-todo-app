@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment variables (keep this secret!)
+.env
+
+# Lock files (optional - some teams commit these)
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# React build output
+build/
+dist/
