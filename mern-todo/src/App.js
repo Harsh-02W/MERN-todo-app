@@ -244,7 +244,7 @@ export default function TodoApp() {
         {/* Header */}
         <header className="header">
           <div className="header-top">
-            <span className="logo">// MERN Todo v1.0</span>
+            <span className="logo">MERN Todo v1.0</span>
           </div>
           <h1 className="title">Get it<br /><span>done.</span></h1>
           <p className="subtitle">MongoDB · Express · React · Node</p>
